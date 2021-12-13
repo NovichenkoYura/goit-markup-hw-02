@@ -1,3 +1,11 @@
-body {
-    color: tomato;
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
 }
+
+/* Основной цвет текста  #212121*/
+/* Вспомогательный цвет текста  #FFFFFF #757575 rgba(255, 255, 255, 0.6) */
+
+/* Акцент #2196F3 */
