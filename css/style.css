@@ -9,3 +9,15 @@
 /* Вспомогательный цвет текста  #FFFFFF #757575 rgba(255, 255, 255, 0.6) */
 
 /* Акцент #2196F3 */
+body {
+  background-color: #e5e5e5;
+  color: #212121;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
