@@ -6,7 +6,7 @@
 }
 
 /* Основной цвет текста  #212121*/
-/* Вспомогательный цвет текста  #FFFFFF #757575 rgba(255, 255, 255, 0.6) */
+/* Вспомогательный цвет текста  #757575 rgba(255, 255, 255, 0.6) */
 
 /* Акцент #2196F3 */
 body {
@@ -24,11 +24,29 @@ body {
   color: #2196f3;
 }
 
-.site-nav {
+.site-nav .link {
   color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+/* Section-title */
+
+.section-title {
+  color: var(--primary-text-color);
+}
+
+/* Hero */
+
+.hero {
+  color: #ffffff;
+}
+
+/* Преимущества */
+
+.advantages .discription {
+  color: var(--secondary-text-color);
 }
