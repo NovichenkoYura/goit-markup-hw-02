@@ -50,3 +50,14 @@ body {
 .advantages .discription {
   color: var(--secondary-text-color);
 }
+
+/* Team */
+.role {
+  color: var(--secondary-text-color);
+}
+
+/* Button */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
