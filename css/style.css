@@ -14,10 +14,21 @@ body {
   color: #212121;
 }
 
+.list {
+  list-style: none;
+}
+
+/* Site-nav */
+
 .logo {
   color: #2196f3;
 }
 
-.list {
-  list-style: none;
+.site-nav {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
