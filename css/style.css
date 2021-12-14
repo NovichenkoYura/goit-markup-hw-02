@@ -3,6 +3,7 @@
   --secondary-text-color: #757575;
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --white: #ffffff;
 }
 
 /* Основной цвет текста  #212121*/
@@ -65,4 +66,21 @@ body {
 .button {
   color: #ffffff;
   background-color: var(--accent-color);
+}
+
+/* Filter */
+.filter {
+  background-color: #f5f4fa;
+  color: var(--primary-text-color);
+}
+
+.filter.current {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.filter:hover,
+.filter:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
