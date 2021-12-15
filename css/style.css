@@ -17,8 +17,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Служебные стили */
 .list {
   list-style: none;
+}
+
+.link {
+  text-decoration: none;
 }
 
 /* Site-nav */
