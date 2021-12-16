@@ -4,6 +4,7 @@
   --footer-text-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
   --white: #ffffff;
+  --secondary-background-color: #2f303a;
 }
 
 /* Основной цвет текста  #212121*/
@@ -91,23 +92,24 @@ body {
 
 .section-title {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
 }
 
 /* Hero */
 
 .hero {
-  position: absolute;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-
-  background: #2f303a;
+  background: var(--secondary-background-color);3a;
 }
 
 .hero-title {
   color: #ffffff;
-  background-color: #2f303a;
+  background-color: var(--secondary-background-color);;
 }
 
 /* Преимущества */
@@ -116,15 +118,62 @@ body {
   color: var(--secondary-text-color);
 }
 
+.advantage-item {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
+.advantage-item .discription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
 /* Team */
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 .role {
   color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Button */
 .button {
-  color: #ffffff;
+  color: var(--white);
   background-color: var(--accent-color);
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero-title .button:hover,
@@ -134,6 +183,10 @@ body {
 }
 
 /* Footer */
+
+.footer {
+  background: var(--secondary-background-color);
+}
 
 .footer .link:hover,
 .footer .link:focus {
@@ -154,14 +207,31 @@ body {
   color: var(--accent-color);
 }
 
-.phisical-adress {
+.footer-adress {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
-
   color: var(--white);
+}
+
+.footer-email {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+}
+
+.footer-tel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
 }
 
 /* Портфолио */
