@@ -129,13 +129,14 @@ body {
   color: var(--primary-text-color);
 }
 
-.advantage-item .discription {
+.advantages .discription {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+
 }
 
 /* Team */
@@ -263,4 +264,23 @@ body {
 .filter:focus {
   background-color: var(--accent-color);
   color: var(--white);
+}
+
+.portfolio-item {
+font-weight: bold;
+font-size: 18px;
+line-height: 2.0;
+/* identical to box height, or 200% */
+
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+.portfolio-type {
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 187% */
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
 }
