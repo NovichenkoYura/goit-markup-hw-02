@@ -5,6 +5,7 @@
   --accent-color: #2196f3;
   --white: #ffffff;
   --secondary-background-color: #2f303a;
+  --third-background-color: #F5F4FA;
 }
 
 /* Основной цвет текста  #212121*/
@@ -139,6 +140,10 @@ body {
 
 /* Team */
 
+.team {
+  background-color: var(--third-background-color);
+}
+
 .team-item {
   font-weight: 500;
   font-size: 16px;
@@ -164,7 +169,6 @@ body {
 .button {
   color: var(--white);
   background-color: var(--accent-color);
-
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -174,6 +178,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .hero-title .button:hover,
@@ -240,6 +245,13 @@ body {
 .filter {
   background-color: #f5f4fa;
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62 ;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--third-background-color);
 }
 
 .filter.current {
