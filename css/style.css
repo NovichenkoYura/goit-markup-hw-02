@@ -13,7 +13,6 @@
 body {
   background-color: #e5e5e5;
   color: #212121;
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -28,8 +27,31 @@ body {
 
 /* Site-nav */
 
+.logo-accent {
+  color: var(--accent-color);
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
 .logo {
-  color: #2196f3;
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.site-nav .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -42,6 +64,26 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/* Adress */
+.header-adress .adress-link:hover,
+.header-adress .adress-link:focus {
+  color: var(--accent-color);
+}
+
+.adress-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+}
+
+.header-adress .adress-link.current {
   color: var(--accent-color);
 }
 
