@@ -5,7 +5,7 @@
   --accent-color: #2196f3;
   --white: #ffffff;
   --secondary-background-color: #2f303a;
-  --third-background-color: #F5F4FA;
+  --third-background-color: #f5f4fa;
 }
 
 /* Основной цвет текста  #212121*/
@@ -13,7 +13,7 @@
 
 /* Акцент #2196F3 */
 body {
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
   color: #212121;
   font-family: "Roboto", sans-serif;
 }
@@ -105,12 +105,18 @@ body {
 /* Hero */
 
 .hero {
-  background: var(--secondary-background-color);3a;
+  background: var(--secondary-background-color);
 }
 
 .hero-title {
-  color: #ffffff;
-  background-color: var(--secondary-background-color);;
+  color: var(--white);
+  background-color: var(--secondary-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Преимущества */
@@ -136,7 +142,6 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-
 }
 
 /* Team */
@@ -168,13 +173,13 @@ body {
 
 /* Button */
 .button {
+  font-family: inherit;
   color: var(--white);
   background-color: var(--accent-color);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.9;
-  /* identical to box height, or 187% */
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
@@ -244,12 +249,12 @@ body {
 
 /* Filter */
 .filter {
+  font-family: inherit;
   background-color: #f5f4fa;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62 ;
-  /* identical to box height, or 162% */
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--third-background-color);
@@ -267,20 +272,20 @@ body {
 }
 
 .portfolio-item {
-font-weight: bold;
-font-size: 18px;
-line-height: 2.0;
-/* identical to box height, or 200% */
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
 
-letter-spacing: 0.06em;
-color: var(--primary-text-color);
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 
 .portfolio-type {
-font-weight: normal;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 187% */
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
